@@ -1,0 +1,22 @@
+.root {
+     /*-fx-background-image: url("background.jpg");*/
+     -fx-background-color:DeepSkyBlue;
+}
+
+.label {
+    /*-fx-font-size: 13px;*/
+    -fx-font-weight: bold;
+
+}
+
+.button {
+      -fx-font-weight: bold;
+      -fx-border: none;
+      -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+      -fx-text-fill: white;
+      -fx-background-color: LightSkyBlue;
+      -fx-padding :8px 20px 6px 18px;
+      -fx-display: inline-block;
+      -fx-background: transparent;
+      -fx-font-size: 16px;
+}
